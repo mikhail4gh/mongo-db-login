@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mongo DB</title>
+    <style>
+         .whole-container{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+         }
+         .small-container{
+            width: 30%;
+            height: 100%;
+            background-color: white;
+            padding-left: 30px;
+            padding-right: 30px;
+
+         }
+         .big-container{
+            background-image: url(jesse-wilkens-4kqm8vu3Jyc-unsplash.jpg);
+            background-position: center;
+            background-size: cover;
+            width: 70%;
+            height: 100%;
+            background-color: ;
+         }
+         .mongodb-logo{
+            display: flex;
+            margin-top: 20px;
+         }
+         .image{
+            width: 30%;
+            
+         }
+         .login-caption{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+         }
+         .head1{
+            color: green;
+            font-weight: normal;
+            margin: 0;
+         }
+         .head2{
+            color: black;
+            font-weight: bold;
+            margin: 0;
+         }
+         .signup-text{
+            color: blue;
+         }
+         .Logo-container{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 30px;
+
+         }
+         .google-button {
+            width: 100%;
+            height: 45px;
+            background-color: white;
+            border: 1px solid gray;
+            border-radius: 5px;
+            box-shadow: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+         }
+         .github-button{
+            width: 100%;
+            height: 45px;
+            background-color: white;
+            border: 1px solid gray;
+            border-radius: 5px;
+            box-shadow: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px
+         }
+         
+         .google-image{
+            width: 25px;
+            height: 25px;
+            object-fit: contain;
+            
+         }
+         .google-text{
+            color: gray;
+            font-size: 13px;
+         }
+         .github-image{
+            width: 27px;
+            height: 27px;
+            object-fit: contain; 
+         }
+         .github-text{
+            color: gray;
+            font-size: 13px;
+         }
+         .notice-text{
+            color: gray;
+            font-size: 13.5px;
+            margin-top: 0;
+         }
+         .note{
+            font-weight: bold;
+            color: darkslategray;
+         }
+        .email-password{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            margin-top: 15px;  
+        }
+        .first-line{
+            width: 85px;
+            height: 1px;
+            background-color: gray;
+        }
+        .second-line{
+            width: 85px;
+            height: 1px;
+            background-color: gray;
+        }
+        .email-password-text{
+            font-size: 14px;
+            color: gray;
+        }
+        .address-input-email{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 5px;
+        }
+        .email-headline{
+            color: black;
+            font-weight: bold;
+            font-size: 13px;
+            margin-bottom: 0;
+        }
+        .input-box{
+            background-color: white;
+            width: 100%;
+            height: 35px;
+            border-radius: 8px;
+            border-color: royalblue;
+            box-shadow: none;
+        }
+        .next-button{
+            width: 55px;
+            height: 30px;
+            background-color: lightgrey;
+            border-radius: 5px;
+            color: black;
+            border-width: 1px;
+            margin-top: 40px;
+        }
+        .writeup-container{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            width: 40%;
+            margin: 40px;
+        }
+        .events{
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="whole-container">
+        <div class="small-container">
+            <div class="mongodb-logo">
+                <img src="MongoDB_Logo-removebg-preview.png" alt="MONGODB-LOGO" class="image"> 
+            </div>
+            <div class="login-caption">
+                <h1 class="head1">Log in to your account</h1>
+                <p class="head2">Don't have an account? <span class="signup-text">Sign Up</span></p>
+            </div>
+            <div class="Logo-container">
+                <button class="google-button">
+                    <img src="new_google-removebg-preview.png" alt="google" class="google-image"><span class="google-text">Google</span>
+                </button>
+                <button class="github-button">
+                    <img src="GITHUB_Logo-removebg-preview.png" alt="github" class="github-image"><span class="github-text">GitHub</span>
+                </button>
+                <p class="notice-text"><span class="note">Note:</span>GitHub requires a public verified email address.<br>Update GitHub privacy settings before continuing.</p>
+            </div>
+            <div class="email-password">
+                <div class="first-line"></div>
+                <p class="email-password-text">Or with email and password</p>
+                <div class="second-line"></div>
+            </div>
+            <div class="address-input-email">
+                <p class="email-headline">Email Address</p>
+                <input type="email"placeholder="|" class="input-box">
+                <button class="next-button">Next</button>
+            </div>
+        </div>
+        <div class="big-container">
+            <div class="writeup-container">
+                <h1 class="headline">Explore upcoming<br> MongoDB.local events</h1>
+            <p class="about-mongodb">Connect with MongoDB experts, AI<br> innovators, and tech leaders and get the<br> skills you need to build great application<br> experience for a new generation of<br> users.</p>
+            <p class="discount"> Use ATLAS50 for 50% off.</p>
+            <p class="events"><u>Browse events></u></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
