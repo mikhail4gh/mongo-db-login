@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mongo DB</title>
     <style>
+         
+         *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+         }
          .whole-container{
             width: 100%;
             height: 100vh;
@@ -24,7 +30,6 @@
             background-size: cover;
             width: 70%;
             height: 100%;
-            background-color: ;
          }
          .mongodb-logo{
             display: flex;
@@ -171,10 +176,124 @@
             color: white;
             width: 40%;
             margin: 40px;
+            gap: 30px;
         }
         .events{
             font-weight: bold;
         }
+        @media screen and (max-width:768px) {
+            .small-container{
+                width: 50%;
+                
+            }
+            .big-container{
+                width: 50%;
+            }
+            .writeup-container{
+                width: 100%;
+                gap: 30px;
+            }
+            .head1{
+                font-size: 37px;
+            }
+            .head2{
+                font-size: 22px;
+            }
+            .login-caption{
+                gap: 20px;
+            }
+            .google-button, .github-button, .input-box{
+                border: 2px solid gray;
+                width: 95%;
+                height: 55px;
+            }
+            .Logo-container{
+                gap: 15px;
+            }
+            .first-line, .second-line{
+                width: 70px;
+            }
+            .email-password{
+                gap:0px;
+                justify-content: center;
+                padding-top: 20px;
+            }
+            .email-headline{
+                font-size: 17px;
+                margin-top: 20px;
+            }
+            .email-password-text{
+                font-size: 17px;
+            }
+            .mongodb-logo{
+                width: 100%;
+                margin: 0;
+                margin-bottom:0;
+            }
+            .image{
+                width: 180px;
+                height: auto;
+                display: block;
+            
+            }
+            .about-mongodb{
+                font-size: 19px;
+                letter-spacing: 0.2px;
+            }
+            .big-container{
+                padding-top: 30px;
+            }
+            .discount{
+                font-size: 20px;
+            }
+        }
+        @media screen and (max-width:480px){
+            .small-container{
+                width: 100%;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .big-container{
+                display: none;
+            }
+            .head1{
+                font-size: 38px;
+            }
+            .head2{
+                font-size: 20px;
+            }
+            .github-button, .google-button, .input-box{
+                border: 1px solid gray;
+                width: 100%;
+            }
+            .email-password-text{
+                font-size: 14px;
+            }
+            .next-button{
+                width: 100%;
+                font-size: 18px;
+                color: gray;
+                height: 45px;
+            }
+            .email-password{
+                margin-top: 5px;
+            }
+            .email-headline{
+                font-size: 15px;
+                margin-bottom: 5px;
+            }
+            .image{
+                width: 150px;
+            }
+            .email-password{
+                gap: 10px;
+            }
+            .first-line, .second-line{
+                width: 80px;
+            }
+
+        }
+
 
     </style>
 </head>
